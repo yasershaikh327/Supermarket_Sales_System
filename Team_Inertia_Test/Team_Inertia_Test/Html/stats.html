@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Data Chart</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../js/stat.js"></script>
+    <link rel="stylesheet" href="../Css/style3.css"/>
+</head>
+<body>
+
+<div class="chart-container">
+    <div class="button-container">
+        <button id="dayView">Day View</button>
+        <button id="monthView">Month View</button>
+        <button onclick="window.location.href='../Html/option.html'" style="border:3px solid green">Back</button>
+    </div>
+    <canvas id="salesChart"></canvas>
+</div>
+
+</body>
+</html>

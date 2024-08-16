@@ -1,0 +1,6 @@
+1)Extract Zip Fille and all the files are available over there
+2)Open Xampp , Start Apache, Start Mysql
+2)Click Admin next to Mysql
+4)Create new Database "supermarket" , import supermarket.sql file and click go
+5)Web site Link: http://localhost/dashboard/Team_Inertia_Test/Html/index.html
+6) Also I am provding Video file for demo
